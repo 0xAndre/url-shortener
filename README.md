@@ -6,7 +6,7 @@ url-shortener example developed with [fastify](https://www.fastify.io/).
 
 ![demo](https://github.com/x0uter/url-shortener/blob/master/public/images/demo.gif)
 
-## Install
+## Install and Run
 
 npm install && npm start
 
