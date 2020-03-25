@@ -1,6 +1,6 @@
 'use strict'
 
-const SERVER_PORT = 1337
+const SERVER_PORT = 5000
 
 const fastify = require('fastify')
 const path = require('path')
