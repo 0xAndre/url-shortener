@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>URL - SHORTENER</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+</head>
+
+<body>
+    <header class="app-header">
+        <h1><span id="url">url</span><span id="hifen">-</span><span id="shortener">shortener</span></h1>
+    </header>
+
+    <section class="app-container">
+        <input id="shorturl" type="text" autocomplete="off">
+        <a id="button" onclick="LetsShort()">short!</a>
+    </section>
+    <section class="app-short">
+        <img id="loading" src="/images/loading.gif" hidden>
+        <span><a id="shorted"></a></span>
+        <p id="refresh" onclick="location.reload()" hidden>short another link!</p>
+    </section>
+    <footer class="app-footer">
+        <span>made with
+            <img alt="love" src="https://icongr.am/octicons/heart.svg?size=12&color=102349" />
+            by <a id="author" href="https://github.com/x0uter" target="_blank">x0uter</a></span>
+    </footer>
+
+</body>
+<script src="/js/core.js"></script>
+
+</html>

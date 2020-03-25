@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.app-short {
+    font-family: 'Roboto', cursive;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 2em;
+    color: #102349;
+    cursor: pointer;
+}
+
+.app-footer {
+    font-family: 'Roboto', cursive;
+    position: fixed;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: #f3f3f3;
+    color: #102349;
+    border-top: 2px solid #9e9e9e;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 5em;
+}
+
+#url {
+    color: #2b7cc7;
+}
+
+#shortener {
+    color: #102349
+}
+
+#hifen {
+    color: #e7b233;
+}
+
+#shorturl {
+    width: 550px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #102349
+}
+
+#button {
+    font-family: 'Righteous', cursive;
+    background-color: #2b7cc7;
+    color: #fff;
+    border-radius: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#button:hover {
+    background-color: #fff;
+    color: #2b7cc7;
+}
+
+#author {
+    text-decoration: none !important;
+    color: #102349;
+}
+
+#author:hover {
+    color: #2b7cc7
+}
+
+#shorted {
+    text-decoration: none !important;
+    color: #102349;
+}
+
+#shorted:hover {
+    color: #2b7cc7;
+}
+
+
+#refresh {
+    color: #e7b233;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+#refresh:hover {
+    color: #2b7cc7
+}

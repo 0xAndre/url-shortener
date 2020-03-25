@@ -1,0 +1,32 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "url shortener",
+  "main": "app.js",
+  "dependencies": {
+    "fastify": "^2.13.0",
+    "fastify-static": "^2.6.0",
+    "handlebars": "^4.7.3",
+    "point-of-view": "^3.7.2",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/x0uter.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "cut"
+  ],
+  "author": "x0uter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/x0uter/issues"
+  },
+  "homepage": "https://github.com/github.com/x0uter#readme"
+}
