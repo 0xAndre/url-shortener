@@ -41,6 +41,6 @@ app.get('/:short', async (req, reply) => {
 
 
 
-app.listen(SERVER_PORT).then(() => {
+app.listen(SERVER_PORT, '0.0.0.0').then(() => {
     console.log('Server Running...')
 })
