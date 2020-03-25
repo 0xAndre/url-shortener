@@ -8,5 +8,5 @@ url-shortener example developed with [fastify](https://www.fastify.io/).
 
 npm install && npm start
 
-> default port: **1337**  could be changed in app.js
+> default port: **5000**  could be changed in app.js
 
